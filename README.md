@@ -16,6 +16,6 @@ provider "aws" {
 
 module "docker_instance" {
     source = "YsnHstrk/docker-instance/aws"
-    key_name = "Write your .pem file name (example: mykey"
+    key_name = "Write your .pem file name (example: mykey)"
 }
 ```
